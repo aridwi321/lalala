@@ -1,13 +1,13 @@
 {
-  "main.css": "/lalala/static/css/main.522482cb.chunk.css",
-  "main.js": "/lalala/static/js/main.4cfe3630.chunk.js",
-  "main.js.map": "/lalala/static/js/main.4cfe3630.chunk.js.map",
+  "main.css": "/lalala/static/css/main.2e0266bc.chunk.css",
+  "main.js": "/lalala/static/js/main.8f8ef2e1.chunk.js",
+  "main.js.map": "/lalala/static/js/main.8f8ef2e1.chunk.js.map",
   "runtime~main.js": "/lalala/static/js/runtime~main.f7a80135.js",
   "runtime~main.js.map": "/lalala/static/js/runtime~main.f7a80135.js.map",
-  "static/js/2.f885ce20.chunk.js": "/lalala/static/js/2.f885ce20.chunk.js",
-  "static/js/2.f885ce20.chunk.js.map": "/lalala/static/js/2.f885ce20.chunk.js.map",
+  "static/js/2.65aa1cca.chunk.js": "/lalala/static/js/2.65aa1cca.chunk.js",
+  "static/js/2.65aa1cca.chunk.js.map": "/lalala/static/js/2.65aa1cca.chunk.js.map",
   "index.html": "/lalala/index.html",
-  "precache-manifest.a0e13b041830efae86a6fe1c52531f28.js": "/lalala/precache-manifest.a0e13b041830efae86a6fe1c52531f28.js",
+  "precache-manifest.dbe9d271d647b8f11043e9266c0749e0.js": "/lalala/precache-manifest.dbe9d271d647b8f11043e9266c0749e0.js",
   "service-worker.js": "/lalala/service-worker.js",
-  "static/css/main.522482cb.chunk.css.map": "/lalala/static/css/main.522482cb.chunk.css.map"
+  "static/css/main.2e0266bc.chunk.css.map": "/lalala/static/css/main.2e0266bc.chunk.css.map"
 }
