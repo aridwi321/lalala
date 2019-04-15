@@ -19,26 +19,34 @@ class App extends Component {
       name: menu.name,
     });
   }
-//menusaya(){
-//  var gambar;
- //   if (this.state.active.toLowerCase() === 'Merah'){
-   // gambar = "Merah";
-   // }
-    //else if(this.state.active.toLowerCase() === 'Kuning'){
-    //  gambar = "Kuning";
-  //  }
-  //  else if(this.state.active.toLowerCase() === 'Biru'){
-  //    gambar = "Biru";
-  //  }
-   // else if(this.state.active.toLowerCase() === 'Hijau'){
-    //  gambar = "Hijau";
-    //}
- // return <img src={gambar+".jpg"} width="200"></img>
-//}
+  calculator(name){
+    if (name=='kalkulator'){
+      //display calculator
+      return(
+        <div>
+            <input type='numbar' placeholder="angka 1"/>+
+            <input type='numbar' placeholder="angka 2"/>=
+            <span>...</span><br/><br/>
+            <button>hitung</button>
+        </div>
+              );
+    }else{
+      //
+      return (
+      <div>
+        ini adalah <span className={"selected "+this.state.color}>
+            {this.state.name}</span><br/><br/>
+            <img src={this.state.img} width="200"></img>
+      </div>
+      );
+  }
+  }
+
+  
 
   render() {
     return (
-      <div id="app">
+      <div id="ap">
         {/*
           map akan loop sebanyak menu yang didefinisikan
         */}
@@ -73,10 +81,7 @@ class App extends Component {
         </nav>
 
          <div className="info">
-            ini adalah <span className={"selected "+this.state.color}>
-            {this.state.name}</span><br/><br/>
-            <img src={this.state.img} width="200"></img>
-           {/*{this.menusaya()}*/} 
+            {this.calculator(this.state.name)} 
         </div>
 
 

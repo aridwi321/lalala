@@ -25,6 +25,11 @@ const items = [
         color : 'Hijau',
         img : 'Hijau.jpg',
     },
+    {
+        name : "kalkulator",
+        color : 'coklat',
+        info :'',
+    },
 ];
 
 ReactDOM.render(<App items={items}/>, document.getElementById('root'));
